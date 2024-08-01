@@ -3,7 +3,7 @@
 #define DHTPIN 2      // Пин, к которому подключен датчик
 #define DHTTYPE DHT11 // Модель датчика: DHT11 или DHT22
 #define RELAY_PIN 7   // Пин, к которому подключено реле
-#define HUMIDITY_THRESHOLD 35  // Пороговое значение влажности
+#define HUMIDITY_THRESHOLD 40  // Пороговое значение влажности
 
 DHT dht(DHTPIN, DHTTYPE);
 
